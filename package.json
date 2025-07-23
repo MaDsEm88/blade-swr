@@ -1,0 +1,39 @@
+{
+  "name": "basic-example",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "blade",
+    "build": "blade build",
+    "serve": "blade serve"
+  },
+  "author": "ronin",
+  "dependencies": {
+    "@base-ui-components/react": "^1.0.0-beta.1",
+    "@squircle/core": "^1.0.6",
+    "@squircle/paint-polyfill": "^1.0.6",
+    "@squircle/tailwindcss": "^1.0.6",
+    "@suyalcinkaya/gauge": "^0.1.0",
+    "better-auth": "^1.2.12",
+    "blade": "3.7.8",
+    "blade-better-auth": "3.7.8",
+    "blade-hono": "3.7.8",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "hono": "^4.8.3",
+    "lucide-react": "^0.525.0",
+    "motion": "^12.23.6",
+    "react": "0.0.0-experimental-df12d7eac-20230510",
+    "react-dom": "0.0.0-experimental-df12d7eac-20230510",
+    "react-use-measure": "^2.1.7",
+    "resend": "^4.7.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.11",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.4",
+    "@types/react-dom": "19.1.5"
+  }
+}
